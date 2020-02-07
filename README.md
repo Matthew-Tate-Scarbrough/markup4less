@@ -25,7 +25,7 @@ Syntax
 
 Basically, it is very straightforward, though, due to keeping it as simple for just `GNU/sed` to handle, it isn't as easy as I would like, and I certainly don't mind writing an overly complex script in `gawk` or something in the future--but I don't know `awk` and that is honestly just bloat, so...
 
-Basically, the sytax is thusly. In this example, we are creating bold-underlined text with a red background and white foreground.
+Basically, the sytax is thusly. In this example, we are creating bold-underlined text with a red background and grey foreground.
 
     echo "{\bu;\bgred;\grey[Some example text...]}" | ./syntax | less -R
     
