@@ -72,8 +72,8 @@ the semi-colons may be easy to forgot, and who really wants to type `{\bf;\it;\u
 
 ### Combos:
 
-    \bt   	    -	bold-italics
-    \bif  	    -	bold-italics
+    \bt         -	bold-italics
+    \bif        -	bold-italics
     \stupid     -	bold-italics (personal joke--I hate bold-italics)
     \ut         -	underlined-italics
     \ult        -	underlined-italics
@@ -109,16 +109,16 @@ You literally shouldn't have to touch these at all.
 These are literally the above commands, but with "bg-" prefixed, short for *background*.
 Perhaps "hl-" makes more sense to you--that honestly never entered my mind, so...
 
-    \bgblack    	-	40 (This one, I believe, actually just removed highlighting--it does not actually highlight in black.)
+    \bgblack        -	40 (This one, I believe, actually just removed highlighting--it does not actually highlight in black.)
     \bgred          -	41
-    \bggreen    	-	42
+    \bggreen        -	42
                            
-    \bgbrown    	-	43
-    \bgorange   	-	43
+    \bgbrown        -	43
+    \bgorange       -	43
                            
     \bgblue         -	44
     \bgpurple       -	45
-    \bgcyan   		-	46
+    \bgcyan         -	46
                            
     \bggray         -	47
     \bggrey         -	47
@@ -129,7 +129,7 @@ Perhaps "hl-" makes more sense to you--that honestly never entered my mind, so..
 Known Bugs
 ----------
 
-This is intended for long form text; interestingly, I actually wrote this for intent with use with {https://github.com/bontibon/kjv}[Bontibon's `kjv` program], so it is not intended for use with writing code or anything like that, so therefore the left square bracket (\[) and the left squiggly bracket (\{) are actually completely unusable.
+This is intended for long form text; interestingly, I actually wrote this for intent with use with [Bontibon's `kjv` program](https://github.com/bontibon/kjv), so it is not intended for use with writing code or anything like that, so therefore the left square bracket (\[) and the left squiggly bracket (\{) are actually completely unusable.
 
 I am sure there is something that can be done, such as changing it to `{[` and telling sed to look for `\b{[\b`, or perhaps adding `\b ... \b` around all the commands and escape all text brackets with `\[`, but I've yet to have a need for this, so it doesn't bother me--please, contribute if you can think of a solution.
 
