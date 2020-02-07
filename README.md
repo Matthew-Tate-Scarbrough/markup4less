@@ -149,7 +149,7 @@ So, that would give you something like:
 
     #!/bin/sh
     
-    .$HOME/.bin/tools/sed/syntax | less -R
+    .$HOME/.bin/tools/sed/syntax.sed | less -R
     
 Then you can just `sudo chmod +x` your new script and copy it into `/usr/local/bin/mynewscript`, then, whenever you need, you can just type into your terminal:
 
