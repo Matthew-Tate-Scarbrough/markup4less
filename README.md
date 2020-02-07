@@ -55,7 +55,7 @@ Commands
 The "documentation" is contained within the `sed` file itself, but I don't expect anyone to actually read that, so...
 There are two categories of commands: *combos*, and *escape sequences*.
 The only difference between them twain is that the combos are to make typing faster;
-the semi-colons may be easy to forgot, and who really wants to type `{\bf;\it;\ul[`, when you could just type `{\ubt[` instead?
+the semi-colons may be easy to be forgotten, and who really wants to type `{\bf;\it;\ul[`, when you could just type `{\ubt[` instead?
 
 ### Escape Sequences:
 
