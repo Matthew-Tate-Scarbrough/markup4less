@@ -1,3 +1,5 @@
+![John 21:20-22](https://raw.githubusercontent.com/Matthew-Tate-Scarbrough/markup4less/master/markup4less.png)
+
 markup4less
 ===========
 
@@ -58,26 +60,26 @@ the semi-colons may be easy to forgot, and who really wants to type `{\bf;\it;\u
 ### Escape Sequences:
 
     \bd -	bold
-    \bf	-	bold-face (the LaTeX command for bold text)
-    \it	-	italics
-    \em	-	italics
-    \ul	-	underline
-    \th	-	thin
-    \st	-	strike-through
-    \ol	-	over-line
-    \fm	-	framed (draws a box around the text)
-    \en	-	encircle (draws a circle around the text)
+    \bf -	bold-face (the LaTeX command for bold text)
+    \it -	italics
+    \em -	italics
+    \ul -	underline
+    \th -	thin
+    \st -	strike-through
+    \ol -	over-line
+    \fm -	framed (draws a box around the text)
+    \en -	encircle (draws a circle around the text)
 
 ### Combos:
 
-    \bt   	-	bold-italics
-    \bif  	-	bold-italics
-    \stupid	-	bold-italics (personal joke--I hate bold-italics)
-    \ut   	-	underlined-italics
-    \ult   	-	underlined-italics
-    \bu   	-	bold-underlined
-    \ub   	-	bold-underlined
-    \ubt	  -	bold-underlined italics
+    \bt   	    -	bold-italics
+    \bif  	    -	bold-italics
+    \stupid     -	bold-italics (personal joke--I hate bold-italics)
+    \ut         -	underlined-italics
+    \ult        -	underlined-italics
+    \bu         -	bold-underlined
+    \ub         -	bold-underlined
+    \ubt        -	bold-underlined italics
 
 ### Text Colours:
 
@@ -85,21 +87,21 @@ You shouldn't have to manually change any of these, as these colours are usually
 or they are overridden, I believe, within your shell's config file, if you so choose.
 You literally shouldn't have to touch these at all.
 
-    \black  		-	30 (these are the ANSI-ESC colour codes)
-    \red  		  -	31
-    \green  		-	32
+    \black          -	30 (these are the ANSI-ESC colour codes)
+    \red            -	31
+    \green          -	32
                            
-    \brown  		-	33
-    \orange 		-	33
+    \brown          -	33
+    \orange         -	33
                            
-    \blue		    -	34
-    \purple     -	35
-    \cyan	  	  -	36
+    \blue           -	34
+    \purple         -	35
+    \cyan           -	36
                            
-    \gray		    -	37 (typing 'light' is bloat)
-    \grey		    -	37 (the superior spelling)
-    \lightgray	-	37
-    \lightgrey	-	37
+    \gray           -	37 (typing 'light' is bloat)
+    \grey           -	37 (the superior spelling)
+    \lightgray      -	37
+    \lightgrey      -	37
 
 
 ### Highlight Colours:
@@ -108,20 +110,20 @@ These are literally the above commands, but with "bg-" prefixed, short for *back
 Perhaps "hl-" makes more sense to you--that honestly never entered my mind, so...
 
     \bgblack    	-	40 (This one, I believe, actually just removed highlighting--it does not actually highlight in black.)
-    \bgred    	 	-	41
+    \bgred          -	41
     \bggreen    	-	42
                            
     \bgbrown    	-	43
     \bgorange   	-	43
                            
-    \bgblue   		-	44
-    \bgpurple   	-	45
+    \bgblue         -	44
+    \bgpurple       -	45
     \bgcyan   		-	46
                            
-    \bggray   		-	47
-    \bggrey   		-	47
-    \bglightgray	-	47
-    \bglightgrey	-	47
+    \bggray         -	47
+    \bggrey         -	47
+    \bglightgray    -	47
+    \bglightgrey    -	47
 
 
 Known Bugs
@@ -130,6 +132,8 @@ Known Bugs
 This is intended for long form text; interestingly, I actually wrote this for intent with use with {https://github.com/bontibon/kjv}[Bontibon's `kjv` program], so it is not intended for use with writing code or anything like that, so therefore the left square bracket (\[) and the left squiggly bracket (\{) are actually completely unusable.
 
 I am sure there is something that can be done, such as changing it to `{[` and telling sed to look for `\b{[\b`, or perhaps adding `\b ... \b` around all the commands and escape all text brackets with `\[`, but I've yet to have a need for this, so it doesn't bother me--please, contribute if you can think of a solution.
+
+Also, while not a "bug" per se, but `less` cannot display encircled or boxed text, but that may just be my terminal emulator.
 
 
 Install
