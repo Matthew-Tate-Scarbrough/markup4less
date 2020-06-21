@@ -3,7 +3,7 @@
 markup4less
 ===========
 
-A glorified sed script that converts a LaTeX-like syntax and commands into ASNI-compatible commands;
+A glorified sed script that converts a LaTeX-like syntax and commands into ANSI-compatible commands;
 it is intened to be used with `less -R`.
 
 Included also are two examples; an "award-winning" short story that I wrote to test out some of the features, and an excerpt from the Gospel of John, to test colouring text and some italics, as well as underlinging.
